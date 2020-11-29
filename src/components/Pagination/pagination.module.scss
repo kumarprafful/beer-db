@@ -1,0 +1,29 @@
+.paginationContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    .navButton{
+        border-radius: 50%;
+        padding: 10px 20px;
+        background-color: rgba(255, 166, 0, 0.796);
+        border: none;
+
+        color: #fff;
+        font-size: 32px;
+        font-weight: 999;
+
+    }
+    .navButton:hover{
+        cursor: pointer;
+        background-color: rgb(255, 166, 0);
+    }
+    .navButton:focus{
+        outline: none;
+    }
+    .pageTag{
+        margin: 0 10px;
+        font-size: 18px;
+    }
+}
+

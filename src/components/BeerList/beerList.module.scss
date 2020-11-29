@@ -1,0 +1,35 @@
+.beerList {
+  width: 30vw;
+  margin: 0 auto;
+}
+
+.listItem {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgb(228, 228, 228);
+  padding: 10px;
+  border-radius: 10px;
+
+  p{
+    margin-bottom: 0;
+  }
+
+  .secondary{
+    color: rgb(104, 104, 104);
+  }
+  .thumbnail {
+    img {
+      height: 100px;
+      width: 100px;
+    }
+  }
+  .listItemText {
+    margin-left: 25px;
+  }
+}
+
+.listItem:hover{
+    background-color: rgba(202, 202, 202, 0.46);
+    cursor: pointer;
+
+}
